@@ -1,0 +1,27 @@
+{
+  "name": "plum",
+  "publisher": "raja",
+  "displayName": "plum",
+  "type": "module",
+  "description": "Accelerate your web personalization with PLUM's VSCode extension, a mixin toolset powered by SASS 🩷",
+  "version": "1.1.2",
+  "icon": "assets/plum-white.png",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajaRakoto/plum.git"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "scss",
+        "path": "./dist/plum.code-snippets"
+      }
+    ]
+  }
+}
