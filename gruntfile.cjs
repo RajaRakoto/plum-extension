@@ -34,6 +34,15 @@ module.exports = function (grunt) {
         src: includeAllFiles,
         dest: 'assets',
       },
+      dist: {
+        options: {
+          archive: backupsDestination + 'dist.tar.gz',
+        },
+        expand: true,
+        cwd: './dist/',
+        src: includeAllFiles,
+        dest: 'dist',
+      },
       src: {
         options: {
           archive: backupsDestination + 'src.tar.gz',
@@ -68,6 +77,7 @@ module.exports = function (grunt) {
   grunt.registerTask('backups', [
     'compress:main',
     'compress:assets',
+    'compress:dist',
     'compress:src',
     'compress:tmp',
     'compress:utilities',
@@ -76,7 +86,7 @@ module.exports = function (grunt) {
   // all tasks lists
   const sasseoTaskNames = ['backups']
   const sasseoTaskStatus = [
-    'backups: main | assets | src | tmp | utilities',
+    'backups: main | assets | dist | src | tmp | utilities',
   ]
 
   // default tasks
