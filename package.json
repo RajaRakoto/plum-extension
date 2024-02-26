@@ -28,7 +28,8 @@
     "Snippets"
   ],
   "scripts": {
-    "build:vsix": "sudo vsce package",
+    "clean": "rimraf build dist coverage",
+    "build": "bun run clean && vsce package && mkdir dist && mv plum-*.vsix dist",
     "prettier": "prettier --config .prettierrc --write .",
     "backups": "grunt backups",
     "version-major": "npm version major",
@@ -47,6 +48,7 @@
     "grunt": "^1.6.1",
     "grunt-contrib-compress": "^2.0.0",
     "load-grunt-tasks": "^5.1.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5"
   }
 }
