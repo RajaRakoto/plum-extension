@@ -84,8 +84,8 @@ module.exports = function (grunt) {
   ])
 
   // all tasks lists
-  const sasseoTaskNames = ['backups']
-  const sasseoTaskStatus = [
+  const plumTaskNames = ['backups']
+  const plumTaskStatus = [
     'backups: main | assets | dist | src | tmp | utilities',
   ]
 
@@ -138,8 +138,8 @@ module.exports = function (grunt) {
     // task resume
     getTaskResume(
       '== PALM EXTENSION TASKS ==',
-      sasseoTaskNames,
-      sasseoTaskStatus,
+      plumTaskNames,
+      plumTaskStatus,
       'magenta',
     )
   })
