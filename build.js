@@ -1,4 +1,6 @@
+/* engine */
 import { concatJSONsourcesToOneFile } from './utilities/engine.js'
+/* snippets sources */
 import { plum_animation } from './src/basics/plum-animation.js'
 import { plum_box } from './src/basics/plum-box.js'
 import { plum_color } from './src/basics/plum-color.js'
@@ -14,6 +16,8 @@ import { plum_position } from './src/basics/plum-position.js'
 import { plum_spacing } from './src/basics/plum-spacing.js'
 import { plum_specs } from './src/basics/plum-specs.js'
 import { plum_tools } from './src/basics/plum-tools.js'
+
+// ========================================
 
 // all snippets list
 const snippetsList = [
