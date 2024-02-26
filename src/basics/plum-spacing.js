@@ -18,7 +18,7 @@ export const plum_spacing = {
   '[spacing]: Quickly add predefined padding based on template argument.': {
     prefix: 'plum-spacing-padding-template',
     body: [
-      '@include spacing-padding-gabarit($$gabarit: ${1:xx-small, x-small, smaller, small, medium, large, larger, x-large, xx-large});',
+      '@include spacing-padding-size($$size: ${1:xx-small, x-small, smaller, small, medium, large, larger, x-large, xx-large});',
     ],
     description:
       '[spacing]: Quickly add predefined padding based on template argument.',
@@ -28,7 +28,7 @@ export const plum_spacing = {
     {
       prefix: 'plum-spacing-margin-template',
       body: [
-        '@include spacing-margin-gabarit($$gabarit: ${1:xx-small, x-small, smaller, small, medium, large, larger, x-large, xx-large});',
+        '@include spacing-margin-size($$size: ${1:xx-small, x-small, smaller, small, medium, large, larger, x-large, xx-large});',
       ],
       description:
         '[spacing]: Quickly add a predefined margin based on the template argument.',
@@ -38,7 +38,7 @@ export const plum_spacing = {
     {
       prefix: 'plum-spacing-all-template',
       body: [
-        '@include spacing-all-gabarit($$gabarit: ${1:xx-small, x-small, smaller, small, medium, large, larger, x-large, xx-large});',
+        '@include spacing-all-size($$size: ${1:xx-small, x-small, smaller, small, medium, large, larger, x-large, xx-large});',
       ],
       description:
         '[spacing]: Quickly add a predefined padding|margin based on the template argument.',
