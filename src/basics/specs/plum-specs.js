@@ -150,4 +150,12 @@ export const plum_specs = {
       description:
         'The responsive video mixin helps you create responsive containing elements with a fixed aspect ratio that you define. This is especially useful when embedding videos from YouTube or similar sources.',
     },
+
+  'Outputs the overflow-wrap property and its legacy name word-wrap to support browsers that do not yet use "overflow-wrap"':
+    {
+      prefix: 'plum-specs-overflow',
+      body: ['@include overflow-wrap($$wrap: ${1:normal, break-word});'],
+      description:
+        'Outputs the overflow-wrap property and its legacy name word-wrap to support browsers that do not yet use "overflow-wrap"',
+    },
 }
