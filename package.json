@@ -12,6 +12,9 @@
     "url": "git+https://github.com/RajaRakoto/plum.git"
   },
   "bugs": "https://github.com/RajaRakoto/plum/issues",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "css",
     "sass",
@@ -32,6 +35,9 @@
     "build": "bun run clean && vsce package && mkdir dist && mv plum-*.vsix dist",
     "prettier": "prettier --config .prettierrc --write .",
     "backups": "grunt backups",
+    "pkg-check": "depcheck",
+    "pkg-upgrade": "ncu --interactive --format group --packageManager bun",
+    "versioning": "ungit",
     "version-major": "npm version major",
     "version-minor": "npm version minor",
     "version-patch": "npm version patch"
@@ -45,9 +51,11 @@
     ]
   },
   "devDependencies": {
+    "depcheck": "^1.4.7",
     "grunt": "^1.6.1",
     "grunt-contrib-compress": "^2.0.0",
     "load-grunt-tasks": "^5.1.0",
+    "npm-check-updates": "^16.14.15",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5"
   }
