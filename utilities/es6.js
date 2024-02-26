@@ -1,5 +1,5 @@
 // engine importation
-import { fsReadDir } from './_utils-engine_.js'
+import { fsReadDir } from './engine.js'
 
 // to get all ES6 modules syntax from the source directory
 function getES6moduleSyntaxBySource(source, extension) {
