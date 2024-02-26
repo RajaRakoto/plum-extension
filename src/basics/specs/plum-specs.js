@@ -134,7 +134,7 @@ export const plum_specs = {
 
   '[specs]: This mixin performs fast import of external fonts and includes consistent properties.':
     {
-      prefix: 'plum-specs-typoFontFace',
+      prefix: 'plum-specs-typo-fontface',
       body: [
         '@include typo-fontface($$font-name: ${1:string}, $$path: ${2:url}, $$weight: ${3:normal, lighter, bold, bolder',
         '}, $$style: ${4:normal, italic});',
@@ -145,7 +145,7 @@ export const plum_specs = {
 
   '[specs]: The responsive video mixin helps you create responsive containing elements with a fixed aspect ratio that you define. This is especially useful when embedding videos from YouTube or similar sources.':
     {
-      prefix: 'plum-specs-videoResponsive',
+      prefix: 'plum-specs-video-responsive',
       body: ['@include video-responsive($$ratio: ${1:16/9, 4/3});'],
       description:
         '[specs]: The responsive video mixin helps you create responsive containing elements with a fixed aspect ratio that you define. This is especially useful when embedding videos from YouTube or similar sources.',
