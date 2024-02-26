@@ -25,9 +25,30 @@ export const plum_position = {
     description: '[position]: Quickly center a block.',
   },
 
-  '[position]: Quickly center child element.': {
-    prefix: 'plum-position-flex-center',
-    body: ['@include position-flex-center();'],
-    description: '[position]: Quickly center child element.',
+  '[position]: Mixin to define the position of an element as absolute.': {
+    prefix: 'plum-position-absolute',
+    body: [
+      '@include position-absolute($$top: ${1:pixel}, $$right: ${2:pixel}, $$bottom: ${3:pixel}, $$left: ${4:pixel});',
+    ],
+    description:
+      '[position]: Mixin to define the position of an element as absolute.',
+  },
+
+  '[position]: Mixin to define the position of an element as relative.': {
+    prefix: 'plum-position-relative',
+    body: [
+      '@include position-relative($$top: ${1:pixel}, $$right: ${2:pixel}, $$bottom: ${3:pixel}, $$left: ${4:pixel});',
+    ],
+    description:
+      '[position]: Mixin to define the position of an element as relative.',
+  },
+
+  '[position]: Mixin to define the position of an element as fixed.': {
+    prefix: 'plum-position-fixed',
+    body: [
+      '@include position-fixed($$top: ${1:pixel}, $$right: ${2:pixel}, $$bottom: ${3:pixel}, $$left: ${4:pixel});',
+    ],
+    description:
+      '[position]: Mixin to define the position of an element as fixed.',
   },
 }
