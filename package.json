@@ -1,46 +1,52 @@
 {
-	"name": "plum",
-	"version": "1.1.2",
-	"description": "Accelerate your web personalization with PLUM's VSCode extension, a mixin toolset powered by SASS 🩷",
-	"displayName": "plum",
-	"publisher": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
-	"license": "MIT",
-	"icon": "assets/plum-white.png",
-	"type": "module",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/RajaRakoto/plum.git"
-	},
-	"bugs": "https://github.com/RajaRakoto/plum/issues",
-	"keywords": [
-		"css",
-		"sass",
-		"collection",
-		"mixins",
-		"toolkit",
-		"scss",
-		"styles"
-	],
-	"engines": {
-		"vscode": "^1.49.0"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"scripts": {
-		"build:vsix": "sudo vsce package",
+  "name": "plum",
+  "version": "1.1.2",
+  "description": "Accelerate your web personalization with PLUM's VSCode extension, a mixin toolset powered by SASS 🩷",
+  "displayName": "plum",
+  "publisher": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
+  "license": "MIT",
+  "icon": "assets/plum-white.png",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajaRakoto/plum.git"
+  },
+  "bugs": "https://github.com/RajaRakoto/plum/issues",
+  "keywords": [
+    "css",
+    "sass",
+    "collection",
+    "mixins",
+    "toolkit",
+    "scss",
+    "styles"
+  ],
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "scripts": {
+    "build:vsix": "sudo vsce package",
     "prettier": "prettier --config .prettierrc --write .",
-		"backups": "grunt backups",
+    "backups": "grunt backups",
     "version-major": "npm version major",
-		"version-minor": "npm version minor",
-		"version-patch": "npm version patch"
-  	},
-	"contributes": {
-		"snippets": [
-			{
-				"language": "scss",
-				"path": "./dist/plum.code-snippets"
-			}
-		]
-	}
+    "version-minor": "npm version minor",
+    "version-patch": "npm version patch"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "scss",
+        "path": "./dist/plum.code-snippets"
+      }
+    ]
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-compress": "^2.0.0",
+    "load-grunt-tasks": "^5.1.0",
+    "prettier": "^3.2.5"
+  }
 }
