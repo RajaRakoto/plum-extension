@@ -57,4 +57,9 @@ export const plum_image = {
       description:
         '[image]: Preload images by setting them to a background-image on the html:after element.',
     },
+  '[image]: Generate image from internet using link': {
+    prefix: 'plum-image-random',
+    body: ['https://picsum.photos/500/300?random=1'],
+    description: '[image]: Generate image from internet using link',
+  },
 }
