@@ -1,6 +1,6 @@
-export const sseo_spacing = {
+export const plum_spacing = {
   "[spacing]: Quickly change an item's padding.": {
-    prefix: 'sseo-spacing-padding',
+    prefix: 'plum-spacing-padding',
     body: [
       '@include spacing-padding($$top: ${1:pixel}, $$right: ${2:pixel}, $$bottom: ${3:pixel}, $$left: ${4:pixel});',
     ],
@@ -8,7 +8,7 @@ export const sseo_spacing = {
   },
 
   "[spacing]: Quickly change an element's margin.": {
-    prefix: 'sseo-spacing-margin',
+    prefix: 'plum-spacing-margin',
     body: [
       '@include spacing-margin($$top: ${1:pixel}, $$right: ${2:pixel}, $$bottom: ${3:pixel}, $$left: ${4:pixel});',
     ],
@@ -16,7 +16,7 @@ export const sseo_spacing = {
   },
 
   '[spacing]: Quickly add predefined padding based on template argument.': {
-    prefix: 'sseo-spacing-padding-template',
+    prefix: 'plum-spacing-padding-template',
     body: [
       '@include spacing-padding-gabarit($$gabarit: ${1:xx-small, x-small, smaller, small, medium, large, larger, x-large, xx-large});',
     ],
@@ -26,7 +26,7 @@ export const sseo_spacing = {
 
   '[spacing]: Quickly add a predefined margin based on the template argument.':
     {
-      prefix: 'sseo-spacing-margin-template',
+      prefix: 'plum-spacing-margin-template',
       body: [
         '@include spacing-margin-gabarit($$gabarit: ${1:xx-small, x-small, smaller, small, medium, large, larger, x-large, xx-large});',
       ],
@@ -36,7 +36,7 @@ export const sseo_spacing = {
 
   '[spacing]: Quickly add a predefined padding|margin based on the template argument.':
     {
-      prefix: 'sseo-spacing-all-template',
+      prefix: 'plum-spacing-all-template',
       body: [
         '@include spacing-all-gabarit($$gabarit: ${1:xx-small, x-small, smaller, small, medium, large, larger, x-large, xx-large});',
       ],

@@ -1,6 +1,6 @@
-export const sseo_color = {
+export const plum_color = {
   '[palette]: Preset color palette.': {
-    prefix: 'sseo-palette-green',
+    prefix: 'plum-palette-green',
     body: [
       '$$turquoise: #1abc9c;',
       '$$green-sea: #16a085;',
@@ -11,7 +11,7 @@ export const sseo_color = {
   },
 
   '[palette]: Preset color palette.': {
-    prefix: 'sseo-palette-blue',
+    prefix: 'plum-palette-blue',
     body: [
       '$$peter-river: #3498db;',
       '$$belize-hole: #2980b9;',
@@ -22,13 +22,13 @@ export const sseo_color = {
   },
 
   '[palette]: Preset color palette.': {
-    prefix: 'sseo-palette-purple',
+    prefix: 'plum-palette-purple',
     body: ['$$amethyst: #9b59b6;', '$$wisteria: #8e44ad;'],
     description: '[palette]: Preset color palette.',
   },
 
   '[palette]: Preset color palette.': {
-    prefix: 'sseo-palette-yellow|orange',
+    prefix: 'plum-palette-yellow|orange',
     body: [
       '$$sun-flower: #f1c40f;',
       '$$orange: #f39c12;',
@@ -38,7 +38,7 @@ export const sseo_color = {
   },
 
   '[palette]: Preset color palette.': {
-    prefix: 'sseo-palette-red',
+    prefix: 'plum-palette-red',
     body: [
       '$$pumpkin: #d35400;',
       '$$alizarin: #e74c3c;',
@@ -48,7 +48,7 @@ export const sseo_color = {
   },
 
   '[palette]: Preset color palette.': {
-    prefix: 'sseo-palette-gray',
+    prefix: 'plum-palette-gray',
     body: [
       '$$clouds: #ecf0f1;',
       '$$silver: #bdc3c7;',
@@ -59,14 +59,14 @@ export const sseo_color = {
   },
 
   '[color]: A function that returns the color pastel as an argument.': {
-    prefix: 'sseo-func-color-pastel',
+    prefix: 'plum-func-color-pastel',
     body: ['__color-pastel($$colors: ${1:color});'],
     description:
       '[color]: A function that returns the color pastel as an argument.',
   },
 
   '[color]: A function that adjusts the brightness of an argument color.': {
-    prefix: 'sseo-func-color-adjust',
+    prefix: 'plum-func-color-adjust',
     body: ['__color-adjust($$colors: ${1:color}, $$percent: ${2:percent});'],
     description:
       '[color]: A function that adjusts the brightness of an argument color.',
@@ -74,7 +74,7 @@ export const sseo_color = {
 
   '[color]: A function that returns the complement of a color (used to determine a graphic charter).':
     {
-      prefix: 'sseo-func-color-complement',
+      prefix: 'plum-func-color-complement',
       body: ['__color-complement($$colors: ${1:color});'],
       description:
         '[color]: A function that returns the complement of a color (used to determine a graphic charter).',

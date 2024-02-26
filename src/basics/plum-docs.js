@@ -1,7 +1,7 @@
-export const sseo_docs = {
+export const plum_docs = {
   '[docs]: Allows you to quickly write the codes needed to generate a docs by sassdoc.':
     {
-      prefix: 'sseo-docs*0',
+      prefix: 'plum-docs*0',
       body: [
         '/// ${1:status}',
         '/// ${2:description}',
@@ -21,7 +21,7 @@ export const sseo_docs = {
 
   '[docs]: Allows you to quickly write the codes needed to generate a docs by sassdoc.':
     {
-      prefix: 'sseo-docs*1',
+      prefix: 'plum-docs*1',
       body: [
         '/// ${1:status}',
         '/// ${2:description}',
@@ -42,7 +42,7 @@ export const sseo_docs = {
 
   '[docs]: Allows you to quickly write the codes needed to generate a docs by sassdoc.':
     {
-      prefix: 'sseo-docs*2',
+      prefix: 'plum-docs*2',
       body: [
         '/// ${1:status}',
         '/// ${2:description}',
@@ -64,7 +64,7 @@ export const sseo_docs = {
 
   '[docs]: Allows you to quickly write the codes needed to generate a docs by sassdoc.':
     {
-      prefix: 'sseo-docs*3',
+      prefix: 'plum-docs*3',
       body: [
         '/// ${1:status}',
         '/// ${2:description}',
@@ -87,7 +87,7 @@ export const sseo_docs = {
 
   '[docs]: Allows you to quickly write the codes needed to generate a docs by sassdoc.':
     {
-      prefix: 'sseo-docs*4',
+      prefix: 'plum-docs*4',
       body: [
         '/// ${1:status}',
         '/// ${2:description}',
