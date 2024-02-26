@@ -1,5 +1,6 @@
 import traverse from 'traverse'
 import fs from 'fs'
+import path from 'path';
 
 // to traverse all source object and get all values of the key
 export function traverseKeyValueByObject(source, key) {
@@ -63,6 +64,12 @@ export function concatJSONsourcesToOneFile(sourcesList, distPath) {
     fs.writeFileSync(distPath, JSON.stringify(sourceList), 'utf8', (err) => {
       console.log(err ? err : 'The file was saved!')
     })
+  }
+
+  // check dist directory
+  const distDirectory = path.dirname(distPath)
+  if (!fs.existsSync(distDirectory)) {
+    fs.mkdirSync(distDirectory, { recursive: true })
   }
 
   JSONexportation(refactorSourceList(sourcesList), distPath)
