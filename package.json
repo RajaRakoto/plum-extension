@@ -32,7 +32,7 @@
   ],
   "scripts": {
     "clean": "rimraf build dist coverage",
-    "build": "bun run clean && vsce package && mkdir dist && mv plum-*.vsix dist",
+    "build": "bun run clean && bun build.js && vsce package && mv plum-*.vsix dist",
     "prettier": "prettier --config .prettierrc --write .",
     "backups": "grunt backups",
     "pkg-check": "depcheck",
