@@ -29,10 +29,12 @@
 	],
 	"scripts": {
 		"build:vsix": "sudo vsce package",
-		"version-major": "npm version major",
+    "prettier": "prettier --config .prettierrc --write .",
+		"backups": "grunt backups",
+    "version-major": "npm version major",
 		"version-minor": "npm version minor",
 		"version-patch": "npm version patch"
-	},
+  	},
 	"contributes": {
 		"snippets": [
 			{
