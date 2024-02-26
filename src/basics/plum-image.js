@@ -44,4 +44,17 @@ export const plum_image = {
       description:
         '[image]: The image-responsive mixin helps you make images responsive and change the default display CSS property value from inline to block to remove the extra space below.',
     },
+
+  '[image]: Preload images by setting them to a background-image on the html:after element.':
+    {
+      prefix: 'plum-image-preload',
+      body: [
+        '@include image-preload(',
+        '  $$preload: ${1:path}',
+        ');',
+        '@include image-preload();',
+      ],
+      description:
+        '[image]: Preload images by setting them to a background-image on the html:after element.',
+    },
 }
