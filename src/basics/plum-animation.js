@@ -26,10 +26,10 @@ export const plum_animation = {
       '[animation]: Add a slide animation effect - great for a sidebar.',
   },
 
-  '[animation]: Add Slide Animation Effect (Fluid).': {
+  '[animation]: Add fade animation effect (fluid).': {
     prefix: 'plum-animation-fade',
     body: ['@include animation-fade($$in-out: ${1:in, out});'],
-    description: '[animation]: Add Slide Animation Effect (Fluid).',
+    description: '[animation]: Add Slide Animation Effect (fluid).',
   },
 
   '[animation]: Add a temporary zoom animation effect - often used for an animation effect on entry.':

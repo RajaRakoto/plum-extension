@@ -1,8 +1,7 @@
 /* engine */
 import { reformatSnippets, fsExport } from './engine.js'
-/* snippets sources */
+/* basics snippets sources */
 import { plum_animation } from '../src/basics/plum-animation.js'
-import { plum_basics } from '../src/basics/plum-basics.js'
 import { plum_box } from '../src/basics/plum-box.js'
 import { plum_colors } from '../src/basics/plum-color.js'
 import { plum_docs } from '../src/basics/plum-docs.js'

@@ -1,6 +1,6 @@
 /* engine */
 import { concatJSONsourcesToOneFile } from './utilities/engine.js'
-/* snippets sources */
+/* basics snippets sources */
 import { plum_animation } from './src/basics/plum-animation.js'
 import { plum_box } from './src/basics/plum-box.js'
 import { plum_color } from './src/basics/plum-color.js'
