@@ -3,7 +3,7 @@ export const plum_media = {
     {
       prefix: 'plum-media-breakpoint',
       body: [
-        '@include breakpoint(${1:$$mode: only, min, max, beetween}, ${2:$$value: xsmall, small, medium, large, xlarge | pixel});',
+        '@include breakpoint($$mode: ${1:only, min, max, beetween}, $$value: ${2:xsmall, small, medium, large, xlarge | pixel});',
       ],
       description:
         '[media]: Breakpoint mixin helps you create scalable media queries and breakpoints using @media CSS rule in SCSS.',

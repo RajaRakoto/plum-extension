@@ -68,7 +68,7 @@ export const plum_specs = {
       prefix: 'plum-specs-mobile',
       body: [
         '@include mobile($$device: ${1:iPhone4, iPhone-SE, iPhone5-SE, iPhone6, iPhone6-Plus, iPhone7, iPhone7-Plus, iPhone8, iPhone8-Plus, iPhone11, iPhone11-Pro, iPhone11-Pro -Max, iPhoneX, Galaxy-S7, Galaxy-S8, Galaxy-S8-Plus, Galaxy-S10',
-        '}, ${2:$$orientation: portrait, landscape});',
+        '}, $$orientation: ${2:portrait, landscape});',
       ],
       description:
         '[specs]: There will be times when you need to style elements only for a particular smartphone model. mobile mixin helps you achieve this.',
@@ -109,7 +109,7 @@ export const plum_specs = {
   '[specs]: Add badge with animated linear gradient': {
     prefix: 'plum-specs-badgeLinear',
     body: [
-      '@include badge-linear($$type: "${1:gold, silver}", $$height: ${2:pixel->4px}, $$width: ${3:pixel->10px }, $$gradient-speed: ${4:second->3s}, $$gradient-direction: ${5:normal, reverse->normal}, $$gradient-orientation: ${6:60deg, 90deg- >60deg}, $$border-radius: ${7:pixel->10px}, $$border: ${8:boolean->false}, $$font-size: ${9:pixel->12px}, $$font-color: ${10:color->#444, #eee->#444}, $$font-weight: ${12:bolder, normal, lighter->bolder});',
+      '@include badge-linear($$type: "${1:gold, silver}", $$height: ${2:pixel->4px}, $$width: ${3:pixel->10px }, $$gradient-speed: ${4:second->3s}, $$gradient-direction: ${5:normal, reverse}, $$gradient-orientation: ${6:60deg, 90deg}, $$border-radius: ${7:pixel->10px}, $$border: ${8:boolean->false}, $$font-size: ${9:pixel->12px}, $$font-color: ${10:color->#444, #eee}, $$font-weight: ${12:bolder, normal, lighter});',
     ],
     description: '[specs]: Add badge with animated linear gradient',
   },
@@ -136,8 +136,7 @@ export const plum_specs = {
     {
       prefix: 'plum-specs-typo-fontface',
       body: [
-        '@include typo-fontface($$font-name: ${1:string}, $$path: ${2:url}, $$weight: ${3:normal, lighter, bold, bolder',
-        '}, $$style: ${4:normal, italic});',
+        '@include typo-fontface($$font-name: ${1:string}, $$path: ${2:url}, $$weight: ${3:normal, lighter, bold, bolder}, $$style: ${4:normal, italic});',
       ],
       description:
         '[specs]: This mixin performs fast import of external fonts and includes consistent properties.',

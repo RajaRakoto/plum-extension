@@ -28,7 +28,7 @@ export const plum_input = {
   '[input]: Input-style-scale adds zoom effect style for input.': {
     prefix: 'plum-input-style-scale',
     body: [
-      '@include input-style-scale($$bg-color: ${1:color->#eee}, $$border-color: ${2:color->#eee}, $$text-color: $ {3:#444});',
+      '@include input-style-scale($$bg-color: ${1:color->#eee}, $$border-color: ${2:color->#eee}, $$text-color: $ {3:color->#444});',
     ],
     description: '[input]: Input-style-scale adds zoom effect style for input.',
   },

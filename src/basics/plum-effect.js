@@ -90,7 +90,7 @@ export const plum_effect = {
     {
       prefix: 'plum-effect-text-stroke',
       body: [
-        '@include effect-text-stroke($$colors: ${1:color->transparent}, $$stroke-color: ${2:color->black}, $$fallback-color: ${3:color ->black}, $$stroke-width: ${4:thin, medium, thick | pixel});',
+        '@include effect-text-stroke($$colors: ${1:color->transparent}, $$stroke-color: ${2:color->black}, $$fallback-color: ${3:color->black}, $$stroke-width: ${4:thin, medium, thick | pixel});',
       ],
       description:
         '[effect]: The effect-text-stroke mixin helps you add a stroke to a text element and style it very easily.',

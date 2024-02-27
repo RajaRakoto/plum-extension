@@ -3,7 +3,7 @@ export const plum_position = {
     {
       prefix: 'plum-position-set',
       body: [
-        '@include position-set($$position: ${1:static, relative, fixed, absoluteute, sticky}, ${2:$$offsets: list(top, right, bottom, left)->0});',
+        '@include position-set($$position: ${1:static, relative, fixed, absoluteute, sticky}, $$offsets: ${2: list(top, right, bottom, left)->0});',
       ],
       description:
         '[position]: Position-set mixin provides a one-line method to quickly set both the position and offset properties of a selected element.',
