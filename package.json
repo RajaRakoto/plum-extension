@@ -31,6 +31,7 @@
     "Snippets"
   ],
   "scripts": {
+    "es6": "bun es6.js",
     "clean": "rimraf build dist coverage",
     "build": "bun run clean && bun build.js && vsce package && mv plum-*.vsix dist",
     "prettier": "prettier --config .prettierrc --write .",
@@ -57,7 +58,6 @@
     "load-grunt-tasks": "^5.1.0",
     "npm-check-updates": "^16.14.15",
     "prettier": "^3.2.5",
-    "rimraf": "^5.0.5",
-    "traverse": "^0.6.8"
+    "rimraf": "^5.0.5"
   }
 }
