@@ -1,5 +1,6 @@
 /* libs */
 import fs from 'fs'
+import path from 'path'
 /* src snippets sources */
 import { plum_animation } from './src/basics/plum-animation.js'
 import { plum_box } from './src/basics/plum-box.js'
@@ -21,14 +22,33 @@ import { plum_oc } from './modules/plum-oc.js'
 
 // ========================================
 
+// to ensure that the directory exists, creating it if necessary
+function ensureDirectoryExists(directory) {
+  if (!fs.existsSync(directory)) {
+    fs.mkdirSync(directory, { recursive: true })
+  }
+}
+
 // all snippets list
 const snippetsList = [
+  plum_animation,
+  plum_box,
+  plum_effect,
+  plum_image,
+  plum_input,
+  plum_position,
+  plum_spacing,
+  plum_layout,
+  plum_media,
+  plum_specs,
+  plum_import,
   plum_animate,
   plum_buttons2,
   plum_hover2,
   plum_magic,
   plum_oc,
 ]
+
 // merge all snippets
 const concatenedSnippets = Object.assign(
   {},
@@ -41,4 +61,6 @@ const concatenedSnippets = Object.assign(
 const json = JSON.stringify(concatenedSnippets)
 
 // write to file
-fs.writeFileSync('./snippets.json', json)
+const distDirectory = './dist'
+ensureDirectoryExists(distDirectory)
+fs.writeFileSync(path.join(distDirectory, 'plum.code-snippets'), json)
