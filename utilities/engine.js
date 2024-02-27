@@ -16,14 +16,6 @@ export function traverseKeyValueByObject(source, key) {
   return traverseResult
 }
 
-// to read all source list
-export function fsReadDir(path) {
-  if (!fs.existsSync(path)) {
-    fs.mkdirSync(path, { recursive: true })
-  }
-  return fs.readdirSync(path)
-}
-
 // to export all data
 export function fsExport(data, filepath) {
   fs.writeFile(filepath, data, 'utf-8', (err) => {
