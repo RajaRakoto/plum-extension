@@ -6,6 +6,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-flash',
     body: [
@@ -13,6 +14,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-jello',
     body: [
@@ -20,6 +22,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-pulse',
     body: [
@@ -27,6 +30,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rubberBand',
     body: [
@@ -34,6 +38,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-shake',
     body: [
@@ -41,6 +46,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-swing',
     body: [
@@ -48,6 +54,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-tada',
     body: [
@@ -55,6 +62,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-wobble',
     body: [
@@ -62,6 +70,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceInDown',
     body: [
@@ -69,6 +78,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceInLeft',
     body: [
@@ -76,6 +86,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceInRight',
     body: [
@@ -83,6 +94,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceIn',
     body: [
@@ -90,6 +102,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceInUp',
     body: [
@@ -97,6 +110,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceOutDown',
     body: [
@@ -104,6 +118,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceOutLeft',
     body: [
@@ -111,6 +126,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceOutRight',
     body: [
@@ -118,6 +134,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceOut',
     body: [
@@ -125,6 +142,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-bounceOutUp',
     body: [
@@ -132,6 +150,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeInDownBig',
     body: [
@@ -139,6 +158,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeInDown',
     body: [
@@ -146,6 +166,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeInLeftBig',
     body: [
@@ -153,6 +174,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeInLeft',
     body: [
@@ -160,6 +182,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeInRightBig',
     body: [
@@ -167,6 +190,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeInRight',
     body: [
@@ -174,6 +198,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeIn',
     body: [
@@ -181,6 +206,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeInUpBig',
     body: [
@@ -188,6 +214,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeInUp',
     body: [
@@ -195,6 +222,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeOutDownBig',
     body: [
@@ -202,6 +230,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeOutDown',
     body: [
@@ -209,6 +238,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeOutLeftBig',
     body: [
@@ -216,6 +246,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeOutLeft',
     body: [
@@ -223,6 +254,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeOutRightBig',
     body: [
@@ -230,6 +262,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeOutRight',
     body: [
@@ -237,6 +270,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeOut',
     body: [
@@ -244,6 +278,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeOutUpBig',
     body: [
@@ -251,6 +286,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-fadeOutUp',
     body: [
@@ -258,6 +294,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-flipInX',
     body: [
@@ -265,6 +302,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-flipInY',
     body: [
@@ -272,6 +310,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-flipOutX',
     body: [
@@ -279,6 +318,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-flipOutY',
     body: [
@@ -286,6 +326,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-flip',
     body: [
@@ -293,6 +334,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-lightSpeedIn',
     body: [
@@ -300,6 +342,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-lightSpeedOut',
     body: [
@@ -307,6 +350,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-properties',
     body: [
@@ -314,6 +358,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateInDownLeft',
     body: [
@@ -321,6 +366,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateInDownRight',
     body: [
@@ -328,6 +374,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateIn',
     body: [
@@ -335,6 +382,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateInUpLeft',
     body: [
@@ -342,6 +390,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateInUpRight',
     body: [
@@ -349,6 +398,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateOutDownLeft',
     body: [
@@ -356,6 +406,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateOutDownRight',
     body: [
@@ -363,6 +414,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateOut',
     body: [
@@ -370,6 +422,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateOutUpLeft',
     body: [
@@ -377,6 +430,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rotateOutUpRight',
     body: [
@@ -384,6 +438,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-slideInDown',
     body: [
@@ -391,6 +446,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-slideInLeft',
     body: [
@@ -398,6 +454,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-slideInRight',
     body: [
@@ -405,6 +462,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-slideInUp',
     body: [
@@ -412,6 +470,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-slideOutDown',
     body: [
@@ -419,6 +478,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-slideOutLeft',
     body: [
@@ -426,6 +486,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-slideOutRight',
     body: [
@@ -433,6 +494,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-slideOutUp',
     body: [
@@ -440,6 +502,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-hinge',
     body: [
@@ -447,6 +510,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rollIn',
     body: [
@@ -454,6 +518,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-rollOut',
     body: [
@@ -461,6 +526,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomInDown',
     body: [
@@ -468,6 +534,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomInLeft',
     body: [
@@ -475,6 +542,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomInRight',
     body: [
@@ -482,6 +550,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomIn',
     body: [
@@ -489,6 +558,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomInUp',
     body: [
@@ -496,6 +566,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomOutDown',
     body: [
@@ -503,6 +574,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomOutLeft',
     body: [
@@ -510,6 +582,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomOutRight',
     body: [
@@ -517,6 +590,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomOut',
     body: [
@@ -524,6 +598,7 @@ export const plum_animate = {
     ],
     description: '[modules]: Animate mixin animation from plum',
   },
+
   '[modules]: Animate mixin animation from plum': {
     prefix: 'plum-modules-animate-zoomOutUp',
     body: [
