@@ -7,12 +7,13 @@
   "author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
   "license": "MIT",
   "icon": "./assets/plum-gray.png",
+  "readme": "./REAMDE.md",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RajaRakoto/plum.git"
+    "url": "git+https://github.com/RajaRakoto/plum-extension.git"
   },
-  "bugs": "https://github.com/RajaRakoto/plum/issues",
+  "bugs": "https://github.com/RajaRakoto/plum-extension/issues",
   "files": [
     "dist"
   ],
