@@ -3,7 +3,7 @@
   "displayName": "plum",
   "version": "2.0.0",
   "description": "Accelerate your web personalization with PLUM's VSCode extension, a mixin toolset powered by SASS 🩷",
-  "publisher": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
+  "publisher": "raja",
   "license": "MIT",
   "icon": "./assets/plum-gray.png",
   "type": "module",
