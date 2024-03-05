@@ -10,9 +10,9 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RajaRakoto/plum-extension.git"
+    "url": "git+https://github.com/RajaRakoto/plum.git"
   },
-  "bugs": "https://github.com/RajaRakoto/plum-extension/issues",
+  "bugs": "https://github.com/RajaRakoto/plum/issues",
   "files": [
     "dist"
   ],
