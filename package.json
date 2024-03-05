@@ -1,17 +1,17 @@
 {
   "name": "plum",
+  "displayName": "plum",
   "version": "1.1.2",
   "description": "Accelerate your web personalization with PLUM's VSCode extension, a mixin toolset powered by SASS 🩷",
-  "displayName": "plum",
   "publisher": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
   "license": "MIT",
-  "icon": "assets/plum-white.png",
+  "icon": "./assets/plum-gray.png",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RajaRakoto/plum.git"
+    "url": "git+https://github.com/RajaRakoto/plum-extension.git"
   },
-  "bugs": "https://github.com/RajaRakoto/plum/issues",
+  "bugs": "https://github.com/RajaRakoto/plum-extension/issues",
   "files": [
     "dist"
   ],
@@ -29,7 +29,7 @@
     "styles"
   ],
   "engines": {
-    "vscode": "^1.49.0"
+    "vscode": "^1.39.0"
   },
   "categories": [
     "Snippets"
@@ -39,13 +39,13 @@
     "clean": "rimraf build dist coverage",
     "build": "bun run clean && bun build.js && vsce package && mv plum-*.vsix dist",
     "prettier": "prettier --config .prettierrc --write .",
-    "backups": "grunt backups",
+    "backup": "grunt backup",
     "pkg-check": "depcheck",
     "pkg-upgrade": "ncu --interactive --format group --packageManager bun",
     "versioning": "ungit",
-    "version-major": "npm version major",
-    "version-minor": "npm version minor",
-    "version-patch": "npm version patch"
+    "npm-version:major": "npm version major",
+    "npm-version:minor": "npm version minor",
+    "npm-version:patch": "npm version patch"
   },
   "contributes": {
     "snippets": [
