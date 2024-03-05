@@ -63,4 +63,4 @@ const json = JSON.stringify(concatenedSnippets)
 // write to file
 const distDirectory = './dist'
 ensureDirectoryExists(distDirectory)
-fs.writeFileSync(path.join(distDirectory, 'plum.code-snippets'), json)
+fs.writeFileSync(path.join(distDirectory, 'plum-extension.code-snippets'), json)
