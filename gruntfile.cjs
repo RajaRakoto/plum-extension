@@ -1,7 +1,6 @@
 /**
- * @author: Raja Rakotonirina <raja.rakoto7@gmail.com>
- * @description: gruntfile for plum-extension
- * @requires: grunt | grunt-contrib-compress | load-grunt-tasks
+ * @description: gruntfile for plum extension
+ * @requires: grunt | load-grunt-tasks | grunt-contrib-compress
  */
 module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt)
@@ -34,14 +33,14 @@ module.exports = function (grunt) {
         src: includeAllFiles,
         dest: 'assets',
       },
-      dist: {
+      modules: {
         options: {
-          archive: backupsDestination + 'dist.tar.gz',
+          archive: backupsDestination + 'modules.tar.gz',
         },
         expand: true,
-        cwd: './dist/',
+        cwd: './modules/',
         src: includeAllFiles,
-        dest: 'dist',
+        dest: 'modules',
       },
       src: {
         options: {
@@ -61,32 +60,22 @@ module.exports = function (grunt) {
         src: includeAllFiles,
         dest: 'tmp',
       },
-      utilities: {
-        options: {
-          archive: backupsDestination + 'utilities.tar.gz',
-        },
-        expand: true,
-        cwd: './utilities/',
-        src: includeAllFiles,
-        dest: 'utilities',
-      },
     },
   })
 
   // all grunt register tasks
-  grunt.registerTask('backups', [
+  grunt.registerTask('backup', [
     'compress:main',
     'compress:assets',
-    'compress:dist',
+    'compress:modules',
     'compress:src',
     'compress:tmp',
-    'compress:utilities',
   ])
 
   // all tasks lists
-  const plumTaskNames = ['backups']
+  const plumTaskNames = ['backup']
   const plumTaskStatus = [
-    'backups: main | assets | dist | src | tmp | utilities',
+    'compress: main | assets | modules | src | tmp',
   ]
 
   // default tasks
@@ -137,7 +126,7 @@ module.exports = function (grunt) {
 
     // task resume
     getTaskResume(
-      '== PALM EXTENSION TASKS ==',
+      '== PLUM EXTENSION TASKS ==',
       plumTaskNames,
       plumTaskStatus,
       'magenta',
