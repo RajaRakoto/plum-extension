@@ -7,7 +7,7 @@
   "author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
   "license": "MIT",
   "icon": "./assets/plum-gray.png",
-  "readme": "./REAMDE.md",
+  "readme": "./README.md",
   "type": "module",
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
     "clean": "rimraf build dist coverage",
     "build": "bun run clean && bun build.js && vsce package && mv plum-*.vsix dist",
     "prettier": "prettier --config .prettierrc --write .",
+    "eslint": "eslint . --ext js,cjs,mjs --report-unused-disable-directives --max-warnings 0",
     "backup": "grunt backup",
     "pkg-check": "depcheck",
     "pkg-upgrade": "ncu --interactive --format group --packageManager bun",
@@ -59,6 +60,8 @@
   },
   "devDependencies": {
     "depcheck": "^1.4.7",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
     "grunt": "^1.6.1",
     "grunt-contrib-compress": "^2.0.0",
     "load-grunt-tasks": "^5.1.0",
