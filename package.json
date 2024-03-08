@@ -1,7 +1,7 @@
 {
   "name": "plum-extension",
   "displayName": "plum",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Accelerate your web personalization with PLUM's VSCode extension, a mixin toolset powered by SASS 🩷",
   "publisher": "raja",
   "author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
