@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/RajaRakoto/plum-extension.git"
   },
+  "homepage": "https://github.com/RajaRakoto/plum-extension#readme",
   "bugs": "https://github.com/RajaRakoto/plum-extension/issues",
   "files": [
     "dist"
