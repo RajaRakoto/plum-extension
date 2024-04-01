@@ -14,7 +14,7 @@
 
 **Usage**: You can install it by typing "plum" in the extension tab of your IDE
 
-**Prefix**: The extension of **Plum** includes a particular "prefix" to better organize and classify its snippets:
+**Prefix**: The extension of **Plum** includes a particular "prefix" to better organize and classify its snippets
 
 ```scss
 plum-[category]-[name...] // e.g: plum-modules-oc-grape
