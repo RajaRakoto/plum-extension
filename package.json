@@ -41,6 +41,7 @@
 		"es6": "bun es6.js",
 		"clean": "rimraf build dist coverage",
 		"build": "bun run clean && bun build.js && vsce package && mv plum-*.vsix dist",
+		"test": "bun test",
 		"eslint": "eslint --config .eslintrc --report-unused-disable-directives --max-warnings 0",
 		"prettier": "prettier --config .prettierrc --write .",
 		"backup": "grunt backup",
