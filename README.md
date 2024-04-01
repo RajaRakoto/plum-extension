@@ -31,6 +31,6 @@ plum-[category]-[name...] // e.g: plum-modules-oc-grape
 - input
 - image
 - position
-...
+  ...
 
 `[name]`: This designation denotes a mixin, function, module, or framework name. It acts as a quick identifier for the specific code snippet you wish to employ. For example, if you're opting for the "blue" color scheme, simply typing "plum-blue" will prompt the extension to suggest "plum-modules-oc-blue" for your selection.
