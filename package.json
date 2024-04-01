@@ -41,15 +41,16 @@
     "es6": "bun es6.js",
     "clean": "rimraf build dist coverage",
     "build": "bun run clean && bun build.js && vsce package && mv plum-*.vsix dist",
-    "prettier": "prettier --config .prettierrc --write .",
-    "eslint": "eslint . --ext js,cjs,mjs --report-unused-disable-directives --max-warnings 0",
+    "eslint": "eslint --config .eslintrc --report-unused-disable-directives --max-warnings 0",
+		"prettier": "prettier --config .prettierrc --write .",
     "backup": "grunt backup",
     "pkg-check": "depcheck",
     "pkg-upgrade": "ncu --interactive --format group --packageManager bun",
     "versioning": "ungit",
     "npm-version:major": "npm version major",
     "npm-version:minor": "npm version minor",
-    "npm-version:patch": "npm version patch"
+    "npm-version:patch": "npm version patch",
+    "nvm": "nvm use"
   },
   "contributes": {
     "snippets": [
