@@ -1,7 +1,7 @@
 {
 	"name": "plum-extension",
 	"displayName": "plum",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Accelerate your web personalization with PLUM's VSCode extension, a mixin toolset powered by SASS 🩷",
 	"publisher": "raja",
 	"author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
@@ -15,7 +15,9 @@
 	},
 	"homepage": "https://github.com/RajaRakoto/plum-extension#readme",
 	"bugs": "https://github.com/RajaRakoto/plum-extension/issues",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"keywords": [
 		"plum",
 		"extension",
@@ -32,7 +34,9 @@
 	"engines": {
 		"vscode": "^1.39.0"
 	},
-	"categories": ["Snippets"],
+	"categories": [
+		"Snippets"
+	],
 	"scripts": {
 		"script:es6": "bun es6.js",
 		"clean": "rimraf build dist coverage",
