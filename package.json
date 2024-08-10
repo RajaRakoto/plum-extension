@@ -1,29 +1,33 @@
 {
-	"name": "my-extension",
-	"displayName": "My extension",
+	"name": "plum-extension",
+	"displayName": "plum",
 	"version": "1.0.0",
-	"description": "Minimalistic boilerplate to quick-start VSCode Extension development 🚀",
-	"publisher": "raja",
+	"description": "Accelerate your web personalization with PLUM's VSCode extension, a mixin toolset powered by SASS 🩷",
+  "publisher": "raja",
 	"author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
 	"license": "MIT",
-	"icon": "./assets/vscode-extension.png",
+	"icon": "./assets/plum-gray.png",
 	"readme": "./README.md",
 	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/RajaRakoto/vscode-boilerplate.git"
+		"url": "git+https://github.com/RajaRakoto/plum-extension.git"
 	},
-	"homepage": "https://github.com/RajaRakoto/vscode-boilerplate#readme",
-	"bugs": "https://github.com/RajaRakoto/vscode-boilerplate/issues",
+	"homepage": "https://github.com/RajaRakoto/plum-extension#readme",
+	"bugs": "https://github.com/RajaRakoto/plum-extension/issues",
 	"files": ["dist"],
 	"keywords": [
+		"plum",
 		"extension",
 		"vscode",
-		"javascript",
-		"minimalist",
-		"boilerplate",
-		"template",
-		"starter"
+		"snippets",
+		"css",
+		"sass",
+		"collection",
+		"mixins",
+		"toolkit",
+		"scss",
+		"styles"
 	],
 	"engines": {
 		"vscode": "^1.39.0"
@@ -32,7 +36,7 @@
 	"scripts": {
 		"script:es6": "bun es6.js",
 		"clean": "rimraf build dist coverage",
-		"build": "bun run clean && bun build.js && vsce package && mv my-*.vsix dist",
+		"build": "bun run clean && bun build.js && vsce package && mv plum-*.vsix dist",
 		"test": "bun test",
 		"biome:start": "biome start",
 		"biome:stop": "biome stop",
@@ -50,12 +54,8 @@
 	"contributes": {
 		"snippets": [
 			{
-				"language": "javascript",
-				"path": "./dist/my-extension.code-snippets"
-			},
-			{
-				"language": "typescript",
-				"path": "./dist/my-extension.code-snippets"
+				"language": "scss",
+				"path": "./dist/plum-extension.code-snippets"
 			}
 		]
 	},

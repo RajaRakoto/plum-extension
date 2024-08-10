@@ -40,4 +40,4 @@ function getES6moduleSyntaxBySource(sources, extension) {
 	return result;
 }
 
-console.log(getES6moduleSyntaxBySource(["./src"], ".js"));
+console.log(getES6moduleSyntaxBySource(["./src", "./modules"], ".js"));

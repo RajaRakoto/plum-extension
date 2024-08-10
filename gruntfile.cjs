@@ -1,15 +1,8 @@
 /**
-<<<<<<< HEAD
  * @description: gruntfile for plum extension
  * @requires: grunt | load-grunt-tasks | grunt-contrib-compress
  */
 module.exports = function (grunt) {
-=======
- * @description: gruntfile for vscode boilerplate
- * @requires: grunt | load-grunt-tasks | grunt-contrib-compress
- */
-module.exports = (grunt) => {
->>>>>>> vscode-boilerplate/master
 	require("load-grunt-tasks")(grunt);
 
 	// backups destination
@@ -26,22 +19,14 @@ module.exports = (grunt) => {
 		compress: {
 			main: {
 				options: {
-<<<<<<< HEAD
 					archive: backupsDestination + "main.tar.gz",
-=======
-					archive: `${backupsDestination}main.tar.gz`,
->>>>>>> vscode-boilerplate/master
 				},
 				files: [{ src: ["./*", "./.*"] }],
 				filter: "isFile",
 			},
 			vscode: {
 				options: {
-<<<<<<< HEAD
 					archive: backupsDestination + "vscode.tar.gz",
-=======
-					archive: `${backupsDestination}vscode.tar.gz`,
->>>>>>> vscode-boilerplate/master
 				},
 				expand: true,
 				cwd: "./.vscode/",
@@ -50,18 +35,13 @@ module.exports = (grunt) => {
 			},
 			assets: {
 				options: {
-<<<<<<< HEAD
 					archive: backupsDestination + "assets.tar.gz",
-=======
-					archive: `${backupsDestination}assets.tar.gz`,
->>>>>>> vscode-boilerplate/master
 				},
 				expand: true,
 				cwd: "./assets/",
 				src: includeAllFiles,
 				dest: "assets",
 			},
-<<<<<<< HEAD
 			modules: {
 				options: {
 					archive: backupsDestination + "modules.tar.gz",
@@ -74,11 +54,6 @@ module.exports = (grunt) => {
 			src: {
 				options: {
 					archive: backupsDestination + "src.tar.gz",
-=======
-			src: {
-				options: {
-					archive: `${backupsDestination}src.tar.gz`,
->>>>>>> vscode-boilerplate/master
 				},
 				expand: true,
 				cwd: "./src/",
@@ -87,11 +62,7 @@ module.exports = (grunt) => {
 			},
 			tests: {
 				options: {
-<<<<<<< HEAD
 					archive: backupsDestination + "tests.tar.gz",
-=======
-					archive: `${backupsDestination}tests.tar.gz`,
->>>>>>> vscode-boilerplate/master
 				},
 				expand: true,
 				cwd: "./tests/",
@@ -100,11 +71,7 @@ module.exports = (grunt) => {
 			},
 			tmp: {
 				options: {
-<<<<<<< HEAD
 					archive: backupsDestination + "tmp.tar.gz",
-=======
-					archive: `${backupsDestination}tmp.tar.gz`,
->>>>>>> vscode-boilerplate/master
 				},
 				expand: true,
 				cwd: "./tmp/",
@@ -119,10 +86,7 @@ module.exports = (grunt) => {
 		"compress:main",
 		"compress:vscode",
 		"compress:assets",
-<<<<<<< HEAD
 		"compress:modules",
-=======
->>>>>>> vscode-boilerplate/master
 		"compress:src",
 		"compress:tests",
 		"compress:tmp",
@@ -131,11 +95,7 @@ module.exports = (grunt) => {
 	// all tasks lists
 	const plumTaskNames = ["backup"];
 	const plumTaskStatus = [
-<<<<<<< HEAD
 		"compress: main | vscode | assets | modules | src | tests | tmp",
-=======
-		"compress: main | vscode | assets | src | tests | tmp",
->>>>>>> vscode-boilerplate/master
 	];
 
 	// default tasks
@@ -156,41 +116,25 @@ module.exports = (grunt) => {
 				case "cyan":
 					console.log(`\n${taskTitle}`.cyan.inverse.bold);
 					taskNames.forEach((taskNames, index) => {
-<<<<<<< HEAD
 						console.log(taskNames.cyan + ` -> ${taskStatus[index]}`);
-=======
-						console.log(`${taskNames.cyan} -> ${taskStatus[index]}`);
->>>>>>> vscode-boilerplate/master
 					});
 					break;
 				case "magenta":
 					console.log(`\n${taskTitle}`.magenta.inverse.bold);
 					taskNames.forEach((taskNames, index) => {
-<<<<<<< HEAD
 						console.log(taskNames.magenta + ` -> ${taskStatus[index]}`);
-=======
-						console.log(`${taskNames.magenta} -> ${taskStatus[index]}`);
->>>>>>> vscode-boilerplate/master
 					});
 					break;
 				case "yellow":
 					console.log(`\n${taskTitle}`.yellow.inverse.bold);
 					taskNames.forEach((taskNames, index) => {
-<<<<<<< HEAD
 						console.log(taskNames.yellow + ` -> ${taskStatus[index]}`);
-=======
-						console.log(`${taskNames.yellow} -> ${taskStatus[index]}`);
->>>>>>> vscode-boilerplate/master
 					});
 					break;
 				case "blue":
 					console.log(`\n${taskTitle}`.blue.inverse.bold);
 					taskNames.forEach((taskNames, index) => {
-<<<<<<< HEAD
 						console.log(taskNames.blue + ` -> ${taskStatus[index]}`);
-=======
-						console.log(`${taskNames.blue} -> ${taskStatus[index]}`);
->>>>>>> vscode-boilerplate/master
 					});
 					break;
 
@@ -202,17 +146,10 @@ module.exports = (grunt) => {
 
 		// task resume
 		getTaskResume(
-<<<<<<< HEAD
 			"== PLUM EXTENSION TASKS ==",
 			plumTaskNames,
 			plumTaskStatus,
 			"magenta",
-=======
-			"== VSCODE BOILERPLATE TASKS ==",
-			plumTaskNames,
-			plumTaskStatus,
-			"yellow",
->>>>>>> vscode-boilerplate/master
 		);
 	});
 };
