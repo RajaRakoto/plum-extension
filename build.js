@@ -1,6 +1,6 @@
 /* libs */
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 
 /* src snippets sources */
 import { plum_animation } from "./src/basics/plum-animation.js";
